@@ -10,6 +10,9 @@ function Snippetviewer({ selectedLanguage, Snippets }) {
           <pre className="bg-white p-2 rounded overflow-auto text-sm">
             <code>{snippet.code}</code>
           </pre>
+          <div className="mt-2">
+            <p className="text-gray-700 text-sm leading-relaxed">{snippet.description}</p>
+          </div>
           <div className="mt-2 flex flex-wrap gap-2">
             {snippet.tags.map((tag, i) => (
               <span

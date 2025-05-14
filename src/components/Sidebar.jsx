@@ -1,6 +1,6 @@
 import React from 'react';
 
-const languages = ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Routing'];
+const languages = ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Python'];
 
 function Sidebar({ onSelectLanguage }) {
   return (
